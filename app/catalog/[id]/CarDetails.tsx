@@ -34,7 +34,7 @@ export default function CarDetails() {
           height={512}
           className={css.carImg}
         />
-        <BookingForm carId={car.id} />
+        <BookingForm />
       </div>
 
       <div className={css.carInfo}>
