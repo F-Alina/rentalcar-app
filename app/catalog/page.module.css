@@ -1,0 +1,24 @@
+.container {
+  max-width: 1440px;
+  padding: 0 120px;
+  margin: 0 auto;
+}
+
+.loadMoreContainer {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.loadMoreBtn {
+  border: 1px solid #3470ff;
+  border-radius: 12px;
+  padding: 12px 38px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.loadMoreBtn:hover {
+  background-color: var(--button-hover);
+  transition: background-color 0.3s ease-in-out;
+}

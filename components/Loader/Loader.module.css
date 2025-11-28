@@ -1,0 +1,5 @@
+.text {
+  font-weight: 600;
+  color: var(--white);
+  font-family: var(--font-manrope);
+}

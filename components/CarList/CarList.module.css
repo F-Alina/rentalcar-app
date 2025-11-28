@@ -1,0 +1,78 @@
+.carList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 32px;
+  align-items: end;
+}
+.listItem {
+  border-radius: 14px;
+  width: calc((100% - 96px) / 4);
+  max-width: 276px;
+}
+
+.carContainerImg {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.cartImg {
+  border-radius: 14px;
+}
+
+.favoriteBtn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.carBrand {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.carModel {
+  color: var(--button);
+}
+
+.rentalPrice {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--main);
+}
+
+.infoRow {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33333;
+  color: var(--gray);
+  margin-bottom: 4px;
+}
+
+.extraRow {
+  margin-bottom: 32px;
+}
+
+.button {
+  border-radius: 12px;
+  padding: 12px;
+  width: 100%;
+  height: auto;
+
+  background-color: var(--button);
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 600;
+  color: var(--white);
+}
+.button:hover {
+  background-color: var(--button-hover);
+  transition: background-color 0.3s ease-in-out;
+}
